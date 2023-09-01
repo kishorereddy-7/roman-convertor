@@ -1,0 +1,27 @@
+{
+  "name": "roman-convertor",
+  "version": "1.0.0",
+  "description": "converts roman to number and number to roman",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kishorereddy-7/roman-convertor.git"
+  },
+  "keywords": [
+    "roman",
+    "number"
+  ],
+  "author": "kishore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kishorereddy-7/roman-convertor/issues"
+  },
+  "homepage": "https://github.com/kishorereddy-7/roman-convertor#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
