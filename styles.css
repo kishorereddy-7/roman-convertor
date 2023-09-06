@@ -1,0 +1,42 @@
+.container {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+html,
+body {
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  overflow: hidden;
+}
+
+button {
+  margin: 1rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 2px solid white;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 2rem;
+  background-color: transparent;
+  color: white;
+}
+
+.converter-input {
+  padding: 2rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  background: transparent;
+  color: white;
+}
+
+#resultHeader {
+  color: white;
+}

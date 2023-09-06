@@ -2,9 +2,9 @@
   "name": "roman-convertor",
   "version": "1.0.0",
   "description": "converts roman to number and number to roman",
-  "main": "index.js",
   "scripts": {
     "serve": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
