@@ -5,14 +5,15 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    <div id="" class="container">
+    <div class="container">
+      <h1 id="resultHeader"></h1>
+      <ul id="romanValueList"></ul>
       <input
         id="converterInput"
         class="converter-input"
         onkeyup="onInputChange(event)"
         placeholder="Number to Roman"
       />
-      <h1 id="resultHeader"></h1>
       <button
         onclick="onClickConvertorButton()"
         id="romanToNumber"

@@ -6,6 +6,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   height: 100%;
+  color: white;
 }
 
 html,
@@ -34,9 +35,25 @@ button {
   font-size: 2rem;
   border-radius: 1rem;
   background: transparent;
+  margin: 1rem 0rem;
   color: white;
 }
 
 #resultHeader {
   color: white;
+}
+
+#romanValueList {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0rem;
+  flex-wrap: wrap;
+}
+
+li {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid white;
+  border-radius: 1rem;
 }

@@ -20,6 +20,7 @@ const resultHeader = document.getElementById("resultHeader");
 const container = document.getElementsByClassName("container")[0];
 const converterInput = document.getElementById("converterInput");
 const converterButton = document.getElementById("romanToNumber");
+const romanValueList = document.getElementById("romanValueList");
 
 const converter = (val) => {
   if (isNumToRoman) {
@@ -62,3 +63,7 @@ const onClickConvertorButton = () => {
     converterButton.innerHTML = "Convert Number to Roman";
   }
 };
+
+Object.keys(symbols)?.forEach((key) => {
+  romanValueList.innerHTML += `<li>${key}: ${symbols[key]}</li>`;
+});
